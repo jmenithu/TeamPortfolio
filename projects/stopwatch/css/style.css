@@ -1,0 +1,67 @@
+
+
+body {
+	background: url(../img/tree.jpg) center center  fixed;
+	background-size: cover;
+	color:#fff;
+}
+/* Titles */
+#header {
+	text-align: center;
+	font-size: 7vw;
+}
+/* Lap */
+#lap {
+	text-align: right;
+	font-size: 4vw;
+}
+/* StopWatch Time */
+#time {
+	text-align: center;
+	font-size: 8vw;
+}
+
+#controlsContainer {
+	margin-bottom: 100px;
+}
+
+.controls {
+	color: #fff;
+	background: #d7A04e;
+	/* To get round u need width and height and make radius 100%*/
+	width: 6vw;
+	height: 6vw;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 6vw;
+	font-size:1.3vw;
+	cursor: pointer;
+}
+
+.controls:active {
+	background: #fff;
+	color: #d7A04e;
+}
+
+#lapsLog {
+	max-height:270px;
+	overflow-y: scroll;
+
+}
+.lap {
+	height:50px;
+	border-bottom: 1px solid #fff;
+	margin: 15px;
+
+}
+.laptitle {
+	font-size:1.5em;
+	float: left;
+}
+.laptime {
+	font-size: 2em;
+	float:right;
+}
+
+
+

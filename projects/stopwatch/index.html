@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>StopWatch using [html,css,jquery,bootstrap]</title>
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <!-- Title -->
+<div class="container-fluid">
+    <div id="header">
+      Stop Watch
+    </div> 
+  
+
+  <!-- Lap Time -->
+  <div id="lap">
+    <span id="lapMinute">00</span>:
+    <span id="lapSecond">00</span>:
+    <span id="lapCentisecond">00</span>
+  </div>
+
+  <!-- StopWatch Time -->
+  <div id="time">
+    <span id="timeMinute">00</span>:
+    <span id="timeSecond">00</span>:
+    <span id="timeCentisecond">00</span>
+  </div>
+
+  <!-- Controls -->
+  <div id="controlsContainer">
+             <!-- col-xs-2 means : we wanted to use xs device and beyond , offset to create 4 col margin  -->
+    <div class="col-xs-2 col-xs-offset-4">
+      <div id="startButton" class="controls">
+        Start
+      </div>
+      <div id="stopButton" class="controls">
+        Stop
+      </div>
+      <div id="resumeButton" class="controls">
+        Resume
+      </div> 
+    </div> 
+
+    <div class="col-xs-2">
+      <div id="lapButton" class="controls">
+        Lap
+      </div> 
+      <div id="resetButton" class="controls">
+        Reset
+      </div>
+    </div>
+ </div>
+
+    <div id="lapsLog"></div>
+ 
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="javascript/stopwatch.js"></script>
+  </body>
+</html>
